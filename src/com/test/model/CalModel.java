@@ -68,7 +68,6 @@ public class CalModel implements ICalculator{
 		if(this.isOperate){
 			//如果前一个是操作符，则将它替换
 			dataStack.pop();
-			System.out.println("1");
 		}
 				
 		@SuppressWarnings("unchecked")
